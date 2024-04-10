@@ -29,3 +29,5 @@ for numbers in range(start_n, end_n) :
 print(count)
 '''    
         
+
+# решение двумя разными способами! Я доволен. =)
