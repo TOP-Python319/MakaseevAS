@@ -1,9 +1,21 @@
-with open("input.txt", "r", encoding='utf-8') as text: #сначала открываем имеющийся файл input
+with open("input.txt", "r", encoding='utf-8') as text:  # сначала открываем имеющийся файл input
     content = text.readlines() 
 
-with open("output.txt", "w", encoding='utf-8') as text: # затем изменяем и записываем из input в созданный нами оutput
-    for index, line in enumerate(content, start=1): # отделяем индекс и строку енумерейтом начиная (задать вопрос насчет индекса)
+with open("output.txt", "w", encoding='utf-8') as text:  # затем изменяем и записываем из input в созданный нами оutput
+    for index, line in enumerate(content, start=1):  # отделяем индекс и строку енумерейтом начиная (задать вопрос насчет индекса)
         text.write(f'{index}) {line}')
+
+# with open("output.txt", "w", encoding='utf-8') as text:  # затем изменяем и записываем из input в созданный нами оutput
+#     for i in enumerate(content, start=1):  # отделяем индекс и строку енумерейтом начиная (задать вопрос насчет индекса)
+#         index, line = i
+#         text.write(f'{index}) {line}')
+
+# with open("output.txt", "w", encoding='utf-8') as text:  # затем изменяем и записываем из input в созданный нами оutput
+#     i = 1
+#     for line in content:  # отделяем индекс и строку енумерейтом начиная (задать вопрос насчет индекса)
+#         text.write(f'{i}) {line}')
+#         i += 1
+
 
 # 1) abcd
 # 2) xcnvmnvkje

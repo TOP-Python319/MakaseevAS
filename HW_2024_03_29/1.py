@@ -12,7 +12,10 @@ def create_counter():
     
     return increment, decrement
     
-inc_1, dec_1 = create_counter()
+
+inc_1, dec_1 = create_counter()  # inc_1, dec_1 = (increment(), decrement())
+# inc_1 = increment()
+# dec_1 = decrement()
 
 print(inc_1())  # увеличиваем на 1
 print(inc_1(2))  # увеличиваем на 2
