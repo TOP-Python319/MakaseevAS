@@ -3,3 +3,6 @@ def double_fact(n):
         return 1
     else:
         return n * double_fact(n-2)
+    
+# Комментарий преподавателя:
+# всё верно!
