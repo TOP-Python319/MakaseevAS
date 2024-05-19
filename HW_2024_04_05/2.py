@@ -7,3 +7,5 @@ with open("data.txt", "r", encoding='utf-8') as text:
 # Simple is better than complex.
 # Explicit is better than implicit.
 # Beautiful is better than ugly.
+
+# всё верно

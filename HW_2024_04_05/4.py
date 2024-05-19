@@ -29,3 +29,5 @@ with open("random.txt", "w", encoding='utf-8') as text:
 # 770
 # 582
 # 544
+
+# всё верно

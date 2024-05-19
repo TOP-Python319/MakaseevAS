@@ -12,3 +12,4 @@ with open("nums.txt", "r", encoding='utf-8') as text:
 
     # 124410
     
+    # всё верно
