@@ -67,3 +67,5 @@ print(key)
 # Enter a description of the error: ER_CANT_CREATE_FILE
 # 1004
 
+# Комментарий преподавателя:
+# всё верно

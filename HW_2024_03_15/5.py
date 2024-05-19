@@ -21,4 +21,7 @@ def callculation_score(word): #
  
 word = input().replace('Ё', 'Е')
 print(callculation_score(word))
- 
+
+
+# Комментарий преподавателя:
+# всё верно
